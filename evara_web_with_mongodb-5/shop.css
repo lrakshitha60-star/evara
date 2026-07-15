@@ -1,0 +1,100 @@
+#productList{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    margin-left: 10%;
+    gap: 5%;
+}
+#productList div{
+    border: 1px solid rgb(207, 215, 211);
+    padding: 5%;
+    border-radius: 12px;
+    font-family: Lato,sans-serif;
+    line-height: 33px;
+    letter-spacing: 1.25px;
+}
+#productList div:hover{
+    border-color: rgb(8, 129, 121); 
+}
+#productList div img{
+    width: 100%;
+    height: 280px;
+    border-radius: 12px;
+}
+.para{
+    font-family: Lato,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 10%;
+    color: rgb(71, 92, 83);
+    letter-spacing: 1.25px;
+}
+#productList div p{
+    color: rgb(144, 144, 142);
+    font-size: 12px;
+}
+#productList div h3{
+    color: rgb(33, 33, 33);
+    font-size: 16px;
+    font-weight: 600;
+}
+#productList div h2{
+    color: rgb(8, 129, 121);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#productList div button{
+    background-color:rgb(8, 129, 121) ;
+    border:1px solid rgb(8, 129, 121);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 29px;
+    padding: 5px 18px;
+}
+#productList div button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 129, 121);
+    transition: 0.4s ease-in-out;
+}
+.search_container{
+    margin-left: 100px;
+    margin-top: 22px;
+}
+.search_container input{
+    border-radius: 4px;
+    border: 1px solid rgb(227, 233, 226) ;
+    height: 45px;
+    font-weight: 400;
+    outline-color: rgb(71, 92, 83);
+    padding: 16px;
+    width: 300px;
+    text-align: start;
+}
+.search_container button{
+    background-color:rgb(8, 129, 121) ;
+    border:1px solid rgb(8, 129, 121);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 45px;
+    padding: 10px 28px;
+}
+.sort_container select{
+    border-radius: 4px;
+    border: 1px solid rgb(227, 233, 226) ;
+    height: 45px;
+    font-weight: 400;
+    outline-color: rgb(71, 92, 83);
+    margin-top: 22px;
+    width: 150px;
+    text-align: start;
+    margin-left: 150px;
+}

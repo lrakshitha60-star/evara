@@ -1,0 +1,298 @@
+/* Styles.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+.header1{
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: rgb(233, 246, 235);
+    color: rgb(8, 129, 121);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(8, 129, 121);
+    padding: 14px;
+}
+.header1 a{
+    text-decoration: none;
+    color: rgb(8, 129, 121);
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(71, 92, 83);
+    column-gap: 16px;
+    font-family: Lato, sans-serif;
+    font-size: 16px ;
+    font-weight: 400;
+    height: 104px;
+    margin: 0px 105px;
+    padding: 0px 12px;
+    
+}
+.header2 div img{
+    width: 120px;
+    
+}
+.nav{
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    font-size: 16px ;
+    font-weight: 700;
+}
+.nav a{
+    color: rgb(8, 129, 121);
+    text-decoration: none;
+    padding: 0 20px;
+}
+.nav a:hover{
+    color: rgb(9, 187, 175);
+}
+.search input{
+    border-radius: 4px;
+    border: 1px solid rgb(227, 233, 226) ;
+    height: 45px;
+    font-weight: 400;
+    outline-color: rgb(71, 92, 83);
+    padding: 16px;
+    width: 300px;
+    text-align: start;
+}
+#icon{
+    font-size: 24px;
+    margin-left: 5px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    padding: 12px;
+    row-gap: 24px;
+    margin-left: 105.5px;
+    height: 382.562px;
+    font-family: Lato, sans-serif;
+}
+.banner div{
+    width: 50%;
+    height: 382.562px;
+    padding-top: 50px;
+}
+.banner div img{
+    width: 637px;
+    height: 100%;
+}
+.banner div button{
+    background-color:rgb(8, 129, 121) ;
+    border:1px solid rgb(8, 129, 121);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 49px;
+    padding: 10px 28px;
+}
+.banner div button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 129, 121);
+    transition: 0.4s ease-in-out;
+}
+
+
+/* Footer */
+
+.footer1{
+    display: flex;
+    background-color: rgb(173, 204, 197);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    padding: 32px;
+    justify-content: space-evenly;
+    
+}
+.fo_d1{
+    display: flex;
+    column-gap: 16px;
+    font-size: 18px;
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+}
+
+.fo_d2{
+    font-size: 16px;
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+}
+.fo_d3 input{
+  background-color: rgb(255, 255, 255);
+  color: rgb(71, 92, 83);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+ border: none;
+  height: 48px;
+  padding: 0px 19.68px;
+  margin-top: -20px;
+  width: 296.453px;
+    
+}
+.fo_d3 button{
+    background-color:rgb(33, 33, 33);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: rgb(255, 255, 255);
+    height: 48px;
+    padding: 0px 32px;
+    width: 128.547px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    margin-left: -4px;
+}
+.footer2{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.footer2 div{
+    
+    height: 300px;
+   
+}
+
+.footer2{
+    font-family: Lato,sans-serif;
+    color: rgb(71, 92, 83);
+    line-height: 0.75cm;
+    column-gap: 5%;
+    margin-top: 30px;
+}
+.footer2 div h3{
+    margin-bottom: 20px;
+}
+.fo2_d1 img{
+    width: 120px;
+    height: 33.125px;
+    cursor: pointer;
+    color: rgb(144, 144, 142);
+    font-family: Lato,sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    
+    margin-bottom: 20px;
+}
+.fo2_d1{
+    line-height: 0.75cm;
+}
+.popular{
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    
+}
+.po_products{
+    display: flex;
+    column-gap: 2%;
+}
+.po_products div{
+    border: 1px solid rgb(207, 215, 211);
+    border-radius: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+    color: rgb(71, 92, 83);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 3%;
+}
+.po_products div img{
+    width: 100%;
+    padding: 5%;
+    border-radius: 12px;
+}
+.static_button{
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+.static_button button{
+    background-color:rgb(237, 237, 237) ;
+    border:1px solid rgb(237, 237, 237);
+    border-radius: 4px;
+    color: rgb(33, 33, 33);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 49px;
+    padding: 10px 28px;
+}
+.timer{
+    margin-left: 8%;
+    height: 475.781px;
+    margin-right: 8%;
+    margin-bottom: 3%;
+    column-gap: 5%;
+    display: flex;
+    
+}
+.timer>div{
+    width: 546px;
+    height: 100%;
+    padding: 5%;
+    line-height: 1.2cm;
+}
+.t1{
+    background-image: url("https://billalben.github.io/evara-ecommerce/assets/img/deals-1.jpg");
+}
+.t1 h3,.t2 h3{
+    color: rgb(8, 129, 121);
+    font-size: 28px;
+    font-weight: 600;
+
+}
+.t1 p,.t2 p{
+    color: rgb(71, 92, 83);
+    font-size: 14px;
+}
+.t1 h4,.t2 h4{
+    color:rgb(33, 33, 33);
+    font-size: 18px;
+    line-height: 23.4px;
+}
+.t2{
+    background-image: url("https://billalben.github.io/evara-ecommerce/assets/img/deals-2.png");
+}
+.count{
+    display: flex;
+    column-gap: 2%;
+}
+.count div{
+    text-align: center;
+    
+}
+.count div p{
+    background-color: rgb(8, 129, 121);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+    width: 60px;
+    padding-top: 10%;
+   
+}
+.count div span{
+    color: rgb(71, 92, 83);
+    font-size: 14px;
+}
+.button1{
+    color: rgb(71, 92, 83);
+    font-size: 16px;
+    height: 45px;
+    width: 150px;
+    border-color: rgb(71, 92, 83);
+    border-radius: 4px;
+}

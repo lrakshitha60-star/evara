@@ -1,0 +1,88 @@
+/* Login.css */
+.login_header{
+    background-color: rgb(237, 237, 237);
+    box-sizing: border-box;
+    color: rgb(71, 92, 83);
+    font-family:Lato, sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0px;
+    padding-left: 50px;
+}
+.login_form{
+    display: flex;
+    max-width: 1140px;
+    margin: 105.5px;
+    margin-top: 50px;
+    column-gap: 30px;
+}
+.login_form div{
+    border: 1px solid rgb(227, 233, 226);
+    width: 50%;
+    padding: 20px;
+    border-radius: 4px;
+}
+.login_form input{
+    border-radius: 4px;
+    border: 1px solid rgb(227, 233, 226) ;
+    height: 45px;
+    font-weight: 400;
+    outline-color: rgb(71, 92, 83);
+    padding: 16px;
+    width: 500px;
+    text-align: start;
+    padding: 0px 16px;
+    margin-bottom: 20px;
+    
+}
+
+.login_form button{
+    background-color:rgb(8, 129, 121) ;
+    border:1px solid rgb(8, 129, 121);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 49px;
+    padding: 10px 28px;
+}
+.login_form button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 129, 121);
+    transition: 0.4s ease-in-out;
+}
+.login_form h3{
+    color: rgb(33, 33, 33);
+    font-family: Lato, sans-serif;
+    font-size: 22px;
+    font-size: 600;
+    margin-bottom: 24px;
+}
+.main_content{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.ma_c1 div{
+    display: flex;
+    background-color:rgb(255, 255, 255) ;
+    border: 1px solid rgb(227, 233, 226);
+    column-gap: 10px;
+    color:rgb(8, 129, 121) ;
+    font-size: 14px;
+    font-family: Lato,sans-serif;
+    line-height: 24px;
+    padding: 16px 32px;
+    width: 271px;
+    
+}
+.ma_c2{
+    margin-left: 8%;
+    margin-right: 8%;
+    color: rgb(33, 33, 33);
+}
+.ma_c2 div{
+    border: 1px solid rgb(227, 233, 226);
+}
